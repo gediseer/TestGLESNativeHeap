@@ -28,23 +28,6 @@ import static javax.microedition.khronos.egl.EGL10.EGL_BAD_SURFACE;
 import static javax.microedition.khronos.egl.EGL10.EGL_NOT_INITIALIZED;
 import static javax.microedition.khronos.egl.EGL10.EGL_SUCCESS;
 
-/**
- * 功能：
- * EGL执行流程：
- * a, 选择Display
- * b, 选择Config
- * c, 创建Surface
- * d, 创建Context
- * e, 指定当前的环境为绘制环境
- * </p>
- * <p>Copyright corp.xxx.com 2018 All right reserved </p>
- *
- * @author tuke 时间 2019/7/15
- * @email tuke@xxx.com
- * <p>
- * 最后修改人：无
- * <p>
- */
 public class EGLHelper {
 
     public EGL10 mEgl10;
@@ -481,16 +464,5 @@ public class EGLHelper {
     private static String getHex(int value) {
         return "0x" + Integer.toHexString(value);
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }

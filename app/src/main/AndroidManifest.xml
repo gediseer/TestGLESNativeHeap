@@ -20,79 +20,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".egl.EGLRenderActivity"
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".render.GLShapeViewActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity android:name=".render.ChooseShapeActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity android:name=".image.GLImageViewActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity android:name=".transform.TransformActivity"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity android:name=".camera.CameraActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity android:name=".fbo.FboActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity android:name=".egl.EGLRenderActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity
-            android:name=".camerademo.CameraDemoActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/CameraDemoTheme"
-            />
-
-        <activity
-            android:name=".camerademo.surfaceview.SurfaceCameraActivity"
-
-            android:theme="@style/CameraDemoTheme"
-            />
-        <!---->
-        <activity
-            android:name=".camerademo.textureview.TextureCameraActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/CameraDemoTheme"
-            />
-        <activity
-            android:name=".camerademo.glsurfaceview.GLSurfaceCameraActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/CameraDemoTheme"
-            />
-        <activity
-            android:name=".camerademo.surfaceview.SurfaceCamera2Activity"
-            android:screenOrientation="portrait"
-            android:theme="@style/CameraDemoTheme"
-            />
-        <activity
-            android:name=".camerademo.textureview.TextureCamera2Activity"
-            android:screenOrientation="portrait"
-            android:theme="@style/CameraDemoTheme"
-            />
-        <activity
-            android:name=".camerademo.glsurfaceview.GLSurfaceCamera2Activity"
-            android:screenOrientation="portrait"
-            android:theme="@style/CameraDemoTheme"
-            />
-
-
-
     </application>
 
 </manifest>
